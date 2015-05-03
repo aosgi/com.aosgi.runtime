@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aosgi.runtime"
+    android:versionCode="1"
+    android:versionName="0.1.0" >
+
+    <uses-sdk android:minSdkVersion="12" />
+
+    <application
+        android:name="com.aosgi.runtime.Launcher"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/aosgi"
+        android:theme="@android:style/Theme.Holo" >
+
+        <activity android:name="com.aosgi.runtime.BundleListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.aosgi.runtime.BundleActivity" />
+
+    </application>
+
+</manifest>

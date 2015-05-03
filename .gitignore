@@ -1,3 +1,14 @@
+# Desktop Services Store for MacOSX 
+.DS_Store
+
+# VIM swp files
+.*.swp
+
+# Eclipse configuration files
+.settings
+.project
+.classpath
+
 # Built application files
 *.apk
 *.ap_
